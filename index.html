@@ -23,10 +23,16 @@
 
 
       <section class="about-me">
-        <div class="pic-container"></div>
+        <picture>
+          <source media="(min-width: 1500px)" srcset="../src/imgs/headshot - monitor screen.jpg" />
+          <source media="(min-width: 800px)" srcset="../src/imgs/headshot - mobile screen.jpg" />
+          <source media="(min-width: 500px)" srcset="../src/imgs/headshot - laptop screen.jpg" />
+          <img src="../src/imgs/headshot - mobile screen.jpg" alt="pic of me"/>
+        </picture>
+
         <div class="intro-container">
-          <h2>About Me</h2>
-          <p>
+          <h2 class="about-me-title">About Me</h2>
+          <p class="intro-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
