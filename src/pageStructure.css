@@ -1,0 +1,27 @@
+body {
+    /* width: 100vw; */
+    background-color: rgb(79, 134, 134);
+}
+
+nav {
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 0.5fr 6fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 700px;
+    background-color: peachpuff;
+}
+
+aside {
+    background-color: purple;
+    grid-column: 1;
+    grid-row: 1 / 5;
+    min-width: 50px;
+}
