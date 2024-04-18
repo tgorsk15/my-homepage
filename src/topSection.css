@@ -1,0 +1,19 @@
+/* styling for About Me section */
+
+.about-me {
+    background-color: lightblue;
+}
+
+/* .pic-container {
+    background-image: url('headshot\ -\ laptop\ screen.jpg');
+    min-height: 200px;
+} */
+
+.about-me-title {
+    background-color: beige;
+}
+
+.intro-paragraph {
+    background-color: aliceblue;
+    
+}

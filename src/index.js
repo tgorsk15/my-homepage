@@ -1,4 +1,5 @@
 import './pageStructure.css'
+import './topSection.css'
 
 console.log("Why are we still here?");
 console.log("Yes");
