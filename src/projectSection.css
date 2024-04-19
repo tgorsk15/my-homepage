@@ -1,0 +1,21 @@
+/* styling for projects section of website */
+
+.projects {
+    
+}
+
+.projects-header {
+
+}
+
+.projects-wrapper {
+    display: grid;
+    /* min-height: 600px; */
+
+}
+
+.projects-wrapper > div {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(244, 148, 113);
+}

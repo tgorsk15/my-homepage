@@ -1,5 +1,7 @@
 import './pageStructure.css'
 import './topSection.css'
+import './projectSection.css'
+import './bottomSection.css'
 
 console.log("Why are we still here?");
 console.log("Yes");
