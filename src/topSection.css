@@ -9,11 +9,53 @@
     min-height: 200px;
 } */
 
+.intro-container {
+    max-width: 600px;
+    background-color: aliceblue;
+}
+ 
 .about-me-title {
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 .intro-paragraph {
-    background-color: aliceblue;
-    
+    /* background-color: aliceblue; */
+    /* max-width: 300px;
+    min-width: 300px; */
 }
+
+/* .profile-pic {
+    content: url("../src/imgs/headshot - monitor v2.xcf");
+} */
+
+@media (550px <= width < 1000px) {
+    .intro-container {
+        width: 500px;
+    }
+
+    .profile-pic {
+        content: url("./imgs/headshot - tablet v2.jpg");
+        
+    }
+}
+
+@media (0px < width < 550px) {
+    .intro-container {
+        width: 350px;
+    }
+
+    .profile-pic {
+        content: url("./imgs/headshot - mobile v2.jpg");
+    }
+}
+
+@media (min-width: 1000px) {
+    .intro-container {
+        
+    }
+
+    .profile-pic {
+        content: url("./imgs/headshot - laptop v2.jpg");
+    }
+}
+
