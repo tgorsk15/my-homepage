@@ -1,17 +1,21 @@
 /* styling for About Me section */
 
 .about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: lightblue;
+    position: relative;
+    max-width: 1000px;
+    justify-self: center;
+    margin-bottom: 30px;
 }
 
-/* .pic-container {
-    background-image: url('headshot\ -\ laptop\ screen.jpg');
-    min-height: 200px;
-} */
 
 .intro-container {
     max-width: 600px;
     background-color: aliceblue;
+    padding: 20px;
 }
  
 .about-me-title {
@@ -19,14 +23,14 @@
 }
 
 .intro-paragraph {
-    /* background-color: aliceblue; */
-    /* max-width: 300px;
-    min-width: 300px; */
+    line-height: 1.4;
+    font-size: 20px;
 }
 
-/* .profile-pic {
-    content: url("../src/imgs/headshot - monitor v2.xcf");
-} */
+.profile-pic {
+    /* position: absolute; */
+
+}
 
 @media (550px <= width < 1000px) {
     .intro-container {
