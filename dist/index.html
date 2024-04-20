@@ -142,10 +142,15 @@
         <!-- create div that has an input element foruser's emal.
         User can type a customized message below this and send.
         (do this with a <form> element)-->
+          <h2 class="contact-header">Get in Touch!</h2>
 
           <div class="form-container">
-            <form action="push">
-              
+            <form action="push" id="connect-form">
+              <label for="user-email">Email:</label>
+              <input type="text" id="user-email" name="user-email" required>
+
+              <label for="user-message">Send a Message!</label>
+              <textarea name="user-message" id="user-message" cols="30" rows="6"></textarea>
             </form>
           </div>
 
