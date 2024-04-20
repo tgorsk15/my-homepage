@@ -21,7 +21,7 @@
 
 .projects-wrapper > div {
     height: 350px;
-    background-color: rgb(244, 148, 113);
+    /* background-color: rgb(244, 148, 113); */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,12 @@
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 5px;
+    transition: all 250ms ease-out
+}
+
+.projects-wrapper > div:hover {
+    transform: translateY(-10px);
+    /* color: white; */
 }
 
 .preview {
@@ -44,17 +50,23 @@
 
 .preview > img {
     width: 100%;
-    /* max-height: 290px;
-    max-width: 520px; */
     height: 100%;
     object-fit: cover;
-    /* border: 5px solid rgb(133, 133, 241); */
     border-radius: 25px; 
     aspect-ratio: 16/9;
 }
 
 .project-bottom > a {
+    position: relative;
     text-decoration: none;
+    color: black;
+    /* padding-bottom: 5px; */
+    transition: all 250ms ease-in;
+}
+
+
+.project-bottom > a:hover {
+    color: rgb(85, 182, 243);
 }
 
 .project-title {
@@ -65,6 +77,22 @@
 .project-descrip {
     margin: 0px;
     font-size: 19px;
+}
+
+.project-title:after {
+    display: block;
+    content: '';
+    /* position: absolute; */
+    left: 0;
+    /* bottom: -3px; */
+    border-bottom: 3px solid purple;
+    width: 0%;
+    transition: all 0s;
+}
+
+.project-title:hover:after {
+    width: 100%;
+    transition: all 1s ease-out
 }
 
 
