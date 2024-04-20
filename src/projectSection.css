@@ -8,6 +8,7 @@
 
 .projects-header {
     margin-left: 65px;
+    font-size: 30px;
 }
 
 .projects-wrapper {
@@ -125,23 +126,26 @@
     }
 
     .projects-wrapper {
-        padding: 0px 20px;
-        max-width: 320px;
+        padding: 0px 5px;
+        /* max-width: 320px; */
+        max-width: 290px;
     }
 
     .projects-wrapper > div {
-        max-width: 335px;
+        max-width: 300px;
         padding-left: 0px;
         padding-right: 0px;
     }
 
     .preview {
-        min-height: 150px;
+        min-height: 130px;
     }
 
     .preview > img {
-        max-height: 170px;
+        max-height: 140px;
     }
 
-
+    .project-bottom {
+        padding-left: 15px;
+    }
 }

@@ -9,6 +9,7 @@
     max-width: 1000px;
     /* justify-self: center; */
     margin-bottom: 30px;
+    /* margin-left: 50px; */
 }
 
 
@@ -32,7 +33,7 @@
 
 }
 
-@media (550px <= width < 1000px) {
+@media (625px <= width < 1000px) {
     .intro-container {
         width: 500px;
     }
@@ -43,13 +44,23 @@
     }
 }
 
-@media (0px < width < 550px) {
+@media (0px < width < 625px) {
     .intro-container {
         width: 350px;
     }
 
     .profile-pic {
         content: url("./imgs/headshot - mobile v2.jpg");
+    }
+}
+
+@media (max-width: 490px) {
+    .about-me {
+        /* padding-left: 35px; */
+    }
+
+    .intro-container {
+        width: 245px;
     }
 }
 
