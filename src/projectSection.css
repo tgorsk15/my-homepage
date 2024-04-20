@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 55px;
 }
 
 .projects-header {
@@ -36,7 +37,6 @@
 
 .projects-wrapper > div:hover {
     transform: translateY(-10px);
-    /* color: white; */
 }
 
 .preview {
@@ -67,7 +67,7 @@
 
 
 .project-bottom > a:hover {
-    color: rgb(85, 182, 243);
+    /* color: rgb(85, 182, 243); */
 }
 
 .project-title {

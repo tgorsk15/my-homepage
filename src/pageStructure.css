@@ -40,3 +40,9 @@ aside {
     /* min-width: 50px;
     max-width: 65px; */
 }
+
+footer {
+    display: flex;
+    height: 250px;
+    background-color: limegreen;
+}
