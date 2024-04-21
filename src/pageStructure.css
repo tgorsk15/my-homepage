@@ -66,9 +66,21 @@ footer {
 
 .email-info {
     margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
 }
 
 .phone-info {
-    margin-top: 5px;
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+}
+
+h4 > img {
+    height: 20px;
 }
 
