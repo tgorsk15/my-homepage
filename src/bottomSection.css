@@ -4,13 +4,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     align-items: center;
     padding-top: 160px;
 }
 
 .contact-header {
-    font-size: 30px;
+    font-size: 45px;
+    padding-bottom: 20px;
     /* align-self: center; */
 }
 
@@ -56,6 +57,10 @@ label {
 @media (max-width: 490px) {
     .form-container {
         padding: 8px;
+    }
+
+    .contact-header {
+        font-size: 30px;
     }
 
     #user-message {

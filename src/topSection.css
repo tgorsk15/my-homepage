@@ -9,27 +9,34 @@
     max-width: 1000px;
     margin-bottom: 30px;
     margin-top: 35px;
+    padding: 30px 0px;
     /* margin-left: 50px; */
 }
 
 
 .intro-container {
     max-width: 600px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-color: #3e3d3d;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 22px rgb(54, 53, 53, 0.2),
+        0 15px 20px rgb(54, 53, 53, 0.2);
 }
  
 .about-me-title {
     /* background-color: beige; */
+    color: whitesmoke;
 }
 
 .intro-paragraph {
     line-height: 1.4;
     font-size: 20px;
+    color: whitesmoke;
 }
 
 .profile-pic {
-
+    box-shadow: -9px -9px 23px black;
 }
 
 @media (625px <= width < 1000px) {
