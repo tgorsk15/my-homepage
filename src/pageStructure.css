@@ -105,3 +105,17 @@ h4 > img {
 }
 
 
+@media (max-width: 490px) {
+    main {
+        margin-left: 35px;
+    }
+
+    aside {
+        width: 35px;
+    }
+
+    i {
+        font-size: 28px;
+    }
+}
+

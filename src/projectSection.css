@@ -117,13 +117,6 @@
 }
 
 @media (max-width: 490px) {
-    main {
-        margin-left: 35px;
-    }
-
-    aside {
-        width: 35px;
-    }
 
     .projects-wrapper {
         padding: 0px 5px;
