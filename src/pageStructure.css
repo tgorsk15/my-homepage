@@ -9,12 +9,21 @@ nav {
     margin: 10px;
 }
 
-/* main {
-    display: grid;
-    grid-template-columns: 0.5fr 6fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    background-color: peachpuff;
-} */
+.name {
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.section-links {
+    display: flex;
+    width: 230px;
+    justify-content: space-evenly;
+}
 
 main {
     display: flex;
