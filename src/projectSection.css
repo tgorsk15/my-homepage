@@ -78,7 +78,7 @@
     font-size: 19px;
 }
 
-.project-title:after {
+.projects-wrapper > div h3:after {
     display: block;
     content: '';
     left: 0;
@@ -87,10 +87,26 @@
     transition: all 0s;
 }
 
-.project-title:hover:after {
+.projects-wrapper > div:hover h3:after {
     width: 100%;
     transition: all 1s ease-out
 }
+
+/* .project-title:after {
+    display: block;
+    content: '';
+    left: 0;
+    border-bottom: 3px solid purple;
+    width: 0%;
+    transition: all 0s;
+} */
+
+/* .project-title:hover:after {
+    width: 100%;
+    transition: all 1s ease-out
+} */
+
+
 
 
 @media (max-width: 622px) {

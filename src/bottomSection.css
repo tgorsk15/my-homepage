@@ -56,14 +56,14 @@ label {
     align-items: center;
     margin-top: 10px;
     max-width: 120px;
-    padding: 18px 0px;
+    padding: 8px 0px;
     color: whitesmoke;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     border: none;
     background: none;
-    transition: transform 800ms ease-out;
+    transition: transform 700ms ease-out;
     will-change: transform;
 }
 
@@ -71,10 +71,11 @@ button > svg {
     fill: whitesmoke;
     height: 28px;
     display: none;
+    will-change: transform;
 }
 
 .submit-form:hover > svg {
-    animation: sendArrow 800ms;
+    animation: sendArrow 700ms;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
     display: block;

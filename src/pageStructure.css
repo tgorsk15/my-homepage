@@ -1,5 +1,9 @@
+html, body {
+    margin: 0px;
+}
+
 body {
-    background-color: rgb(79, 134, 134);
+    background-color: #31363F;
 }
 
 nav {
@@ -12,6 +16,7 @@ nav {
 .name {
     font-size: 30px;
     color: whitesmoke;
+    padding-left: 15px;
 }
 
 nav a {
@@ -29,7 +34,7 @@ nav a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
     transition: background-position 180ms ease-in;
 }
 
@@ -39,7 +44,7 @@ nav a:hover {
 
 .section-links {
     display: flex;
-    width: 255px;
+    width: 295px;
     justify-content: space-evenly;
 }
 
@@ -47,7 +52,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
+    background-color: #31363F;
     margin-left: 50px;
 }
 
@@ -59,7 +65,7 @@ aside {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    background-color: purple;
+    background-color: #31363F;
     max-width: 65px;
     z-index: 1;
 }
@@ -70,12 +76,13 @@ aside > a {
 }
 
 .first-social {
-    margin-top: 70px;
+    margin-top: 180px;
 }
 
 i {
     font-size: 40px;
-    transition: all 200ms ease-in-out;
+    transition: all 80ms ease-in-out;
+    padding-left: 10px;
 }
 
 i:hover {
@@ -92,6 +99,7 @@ footer {
     background-color: slategray;
     padding-left: 50px;
     color: whitesmoke;
+    z-index: 2;
 }
 
 .footer-header {
