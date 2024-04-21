@@ -6,6 +6,7 @@
     width: 100%;
     padding-bottom: 25px;
     align-items: center;
+    padding-top: 160px;
 }
 
 .contact-header {
@@ -19,4 +20,39 @@
     flex-wrap: wrap;
     min-width: 70vw;
     background-color: rgb(55, 173, 212);
+    padding: 20px;
+}
+
+#connect-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#user-email {
+    max-width: 160px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+
+#user-message {
+    padding: 3px;
+    resize: none;
+    max-width: 60vw;
+}
+
+.submit-form {
+    margin-top: 10px;
+    max-width: 80px;
+    padding: 6px 0px;
+}
+
+@media (max-width: 490px) {
+    .form-container {
+        padding: 8px;
+    }
+
+    #user-message {
+        min-height: 300px;
+    }
 }
