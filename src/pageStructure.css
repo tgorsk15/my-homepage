@@ -19,7 +19,7 @@ nav a {
     display: inline-block;
     overflow: hidden;
     background: 
-        linear-gradient(to right, blue, blue 50%, whitesmoke 50%);
+        linear-gradient(to right, rgb(45, 45, 249), rgb(45, 45, 249) 50%, whitesmoke 50%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -89,8 +89,9 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     height: 250px;
-    background-color: limegreen;
+    background-color: slategray;
     padding-left: 50px;
+    color: whitesmoke;
 }
 
 .footer-header {
@@ -130,7 +131,7 @@ h4 > img {
     display: flex;
     position: absolute;
     bottom: 0px;
-    right: 20px;
+    right: 10px;
     gap: 10px;
     align-items: center;
     width: 280px;

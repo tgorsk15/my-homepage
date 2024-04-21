@@ -5,10 +5,11 @@
     flex-direction: column;
     width: 100%;
     padding-bottom: 55px;
+    color: whitesmoke;
 }
 
 .projects-header {
-    margin-left: 65px;
+    margin-left: 75px;
     font-size: 30px;
 }
 
@@ -23,7 +24,6 @@
 
 .projects-wrapper > div {
     height: 350px;
-    /* background-color: rgb(244, 148, 113); */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -64,12 +64,9 @@
     color: black;
     /* padding-bottom: 5px; */
     transition: all 250ms ease-in;
+    color: whitesmoke;
 }
 
-
-.project-bottom > a:hover {
-    /* color: rgb(85, 182, 243); */
-}
 
 .project-title {
     margin: 5px 0px;
@@ -84,9 +81,7 @@
 .project-title:after {
     display: block;
     content: '';
-    /* position: absolute; */
     left: 0;
-    /* bottom: -3px; */
     border-bottom: 3px solid purple;
     width: 0%;
     transition: all 0s;

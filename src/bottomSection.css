@@ -12,7 +12,7 @@
 .contact-header {
     font-size: 45px;
     padding-bottom: 20px;
-    /* align-self: center; */
+    color: whitesmoke;
 }
 
 .form-container {
@@ -20,8 +20,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     min-width: 70vw;
-    background-color: rgb(55, 173, 212);
+    background: linear-gradient(157deg, rgb(87, 87, 88) 0%, rgba(101,155,166,1) 100%);
     padding: 20px;
+    color: whitesmoke;
+    border-radius: 25px;
 }
 
 #connect-form {
@@ -34,29 +36,46 @@
     max-width: 160px;
     padding: 3px;
     margin-bottom: 20px;
-    /* font-size: 25px; */
 }
 
 #user-message {
     padding: 3px;
     resize: none;
     max-width: 60vw;
-    /* font-size: 25px; */
 }
 
 label {
     font-size: 25px;
+    margin-bottom: 5px;
 }
 
 .submit-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
     margin-top: 10px;
-    max-width: 80px;
+    max-width: 120px;
     padding: 6px 0px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    border: none;
+    background-color: blue;
+}
+
+button > svg {
+    fill: whitesmoke;
+    height: 28px;
+}
+
+.submit-form:hover > svg {
+    fill: black;
 }
 
 @media (max-width: 490px) {
     .form-container {
-        padding: 8px;
+        padding: 12px;
     }
 
     .contact-header {
