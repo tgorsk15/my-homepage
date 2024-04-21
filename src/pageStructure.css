@@ -48,6 +48,11 @@ aside > a {
 
 i {
     font-size: 40px;
+    transition: all 200ms ease-in-out;
+}
+
+i:hover {
+    text-shadow: 0px 0px 20px blue;
 }
 
 footer {
@@ -119,3 +124,13 @@ h4 > img {
     }
 }
 
+@media (min-width: 1000px) {
+    .footer-header {
+        font-size: 34px;
+    }
+
+    .email-info, .phone-info {
+        font-size: 24px;
+        width: 400px;
+    }
+}
