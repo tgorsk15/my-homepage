@@ -22,17 +22,16 @@
     border-radius: 20px;
     box-shadow: 0px 10px 22px rgb(54, 53, 53, 0.2),
         0 15px 20px rgb(54, 53, 53, 0.2);
+        color: whitesmoke;
 }
  
 .about-me-title {
-    /* background-color: beige; */
-    color: whitesmoke;
+   
 }
 
 .intro-paragraph {
     line-height: 1.4;
     font-size: 20px;
-    color: whitesmoke;
 }
 
 .profile-pic {

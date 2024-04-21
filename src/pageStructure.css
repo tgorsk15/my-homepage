@@ -11,17 +11,35 @@ nav {
 
 .name {
     font-size: 30px;
+    color: whitesmoke;
 }
 
 nav a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    background: 
+        linear-gradient(to right, blue, blue 50%, whitesmoke 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+
     text-decoration: none;
     color: whitesmoke;
     font-weight: bold;
+    font-size: 17px;
+    transition: background-position 180ms ease-in;
+}
+
+nav a:hover {
+    background-position: 0 100%;
 }
 
 .section-links {
     display: flex;
-    width: 230px;
+    width: 255px;
     justify-content: space-evenly;
 }
 
@@ -120,6 +138,14 @@ h4 > img {
 
 
 @media (max-width: 490px) {
+    .section-links > a {
+        font-size: 13px;
+    }
+
+    .section-links {
+        min-width: 200px;
+    }
+
     main {
         margin-left: 35px;
     }
