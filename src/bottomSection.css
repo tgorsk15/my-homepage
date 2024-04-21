@@ -1,4 +1,5 @@
-/* styling for contact-me section */
+
+
 
 .contact {
     display: flex;
@@ -51,26 +52,55 @@ label {
 
 .submit-form {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
     margin-top: 10px;
     max-width: 120px;
-    padding: 6px 0px;
+    padding: 18px 0px;
     color: whitesmoke;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
     border: none;
-    background-color: blue;
+    background: none;
+    transition: transform 800ms ease-out;
+    will-change: transform;
 }
 
 button > svg {
     fill: whitesmoke;
     height: 28px;
+    display: none;
 }
 
 .submit-form:hover > svg {
-    fill: black;
+    animation: sendArrow 800ms;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    display: block;
+    position: absolute;
+}
+
+.submit-form:hover {
+    transform: scale(1.1);
+}
+
+/* arrow animation */
+
+@keyframes sendArrow {
+    0% {
+        opacity: 0;
+        transform: translateX(0%);
+    }
+
+    50% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(200%);
+    }
 }
 
 @media (max-width: 490px) {
@@ -90,3 +120,6 @@ button > svg {
         font-size: 19px;
     }
 }
+
+
+
