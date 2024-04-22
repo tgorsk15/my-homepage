@@ -14,9 +14,11 @@ nav {
 }
 
 .name {
-    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 35px;
     color: whitesmoke;
     padding-left: 15px;
+
 }
 
 nav a {
@@ -33,6 +35,7 @@ nav a {
 
     text-decoration: none;
     color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
     font-size: 20px;
     transition: background-position 180ms ease-in;
@@ -97,6 +100,7 @@ footer {
     height: 250px;
     background-color: slategray;
     color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
     z-index: 2;
 }
 

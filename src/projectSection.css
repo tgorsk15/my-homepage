@@ -6,6 +6,7 @@
     width: 100%;
     padding-bottom: 55px;
     color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .projects-header {
@@ -66,7 +67,8 @@
 
 
 .project-title {
-    margin: 5px 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     font-size: 24px;
 }
 

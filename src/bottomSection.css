@@ -8,6 +8,7 @@
     padding-bottom: 35px;
     align-items: center;
     padding-top: 160px;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .contact-header {
@@ -59,6 +60,7 @@ label {
     max-width: 120px;
     padding: 8px 0px;
     color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: bold;
     font-size: 20px;
     text-align: left;
