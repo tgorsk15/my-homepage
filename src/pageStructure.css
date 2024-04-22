@@ -149,6 +149,11 @@ h4 > img {
 
 
 @media (max-width: 490px) {
+    .name {
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
     .section-links > a {
         font-size: 13px;
     }
