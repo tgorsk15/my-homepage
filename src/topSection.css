@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: lightblue;
+    background-color: rgb(173, 216, 230, 0.7);
     position: relative;
     max-width: 1000px;
     margin-bottom: 30px;
@@ -61,11 +61,14 @@
 
 @media (max-width: 490px) {
     .about-me {
-        /* padding-left: 35px; */
+        max-width: 315px;
+        background: none;
     }
 
     .intro-container {
-        width: 245px;
+        max-width: 245px;
+        padding: 7px;
+        
     }
 }
 

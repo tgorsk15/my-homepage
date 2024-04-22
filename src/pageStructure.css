@@ -52,7 +52,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: peachpuff; */
     background-color: #31363F;
     margin-left: 50px;
 }
@@ -80,13 +79,13 @@ aside > a {
 }
 
 i {
-    font-size: 40px;
+    font-size: 38px;
     transition: all 80ms ease-in-out;
     padding-left: 10px;
 }
 
 i:hover {
-    text-shadow: 0px 0px 20px blue;
+    text-shadow: 0px 0px 25px blue;
 }
 
 footer {
@@ -97,7 +96,6 @@ footer {
     flex-wrap: wrap;
     height: 250px;
     background-color: slategray;
-    padding-left: 50px;
     color: whitesmoke;
     z-index: 2;
 }
@@ -164,8 +162,10 @@ h4 > img {
     }
 
     i {
-        font-size: 28px;
+        font-size: 22px;
+        padding-left: 5px;
     }
+
 }
 
 @media (min-width: 1000px) {
